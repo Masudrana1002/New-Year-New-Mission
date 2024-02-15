@@ -1,7 +1,9 @@
 
+
+
 /* banner-section style start */
 .banner-section{
-    background-image: linear-gradient(rgba(7, 2, 17, 100%), rgba(7, 2, 17, 100%)), url("../images/Banner\ Image.png");
+    background-image:  linear-gradient(rgba(7, 2, 17, 0%), rgba(7, 2, 17, 0%)), url("../images/Banner\ Image.png");
     background-repeat: no-repeat;
     max-width: 1320px;
     height:70vh ;
@@ -16,11 +18,11 @@
 }
 .banner-titel-one{
     font-size: 1.92rem;
-    color: #c4c1c1;
+    color: #ffffff;
 }
 .banner-titel-tow{
     font-size: 4.32rem;
-    color: #c4c1c1;
+    color: #ffffff;
     margin-top: 0px;
     
 }
@@ -32,11 +34,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
     max-width: 800px;
     margin:5rem auto;
-
-
 }
 .off{
     font-size: 5.28rem;
@@ -46,5 +45,92 @@
 .offer-deals{
     font-size: 1.44rem;
     color: #FF0000;
-    
+    line-height: 0%; 
+}
+.all-categorie{
+    font-size: 2.88rem;
+    line-height: 0%;
+}
+/*offer-section style end  */
+
+/* midnight party section style start */
+.midnight-party{
+    background-image: linear-gradient(rgba(0, 0, 10, 0.55), rgba(7, 2, 17, 0%)), url("../images/Vectorrr.png");
+    background-repeat: no-repeat;
+    height:70vh ;
+    max-width: 1320px;
+    min-height: 600px;
+    margin: 5rem auto;
+    background-blend-mode:lighten ;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.party-content{
+    padding-left: 8%;
+    color: white;
+}
+.party-titel{
+    font-size: 3.84rem;
+    line-height: 1;
+    margin-bottom: 0px;
+    width: 55%;
+}
+.party-description{
+    width: 55%;
+    font-size: 1.08rem;
+}
+.party-content > a{
+    color:white ;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+/* midnight party section style end */
+/* place-section section style start  */
+.place-section{
+    height:50vh ;
+    max-width: 1320px;
+    min-height: 482px;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:  linear-gradient(rgba(255, 0, 0, 10%), rgba(255, 0, 0, 10%), rgb(255, 255, 255));
+    border-radius: 10px;
+}
+.place-section h3{
+    font-size: 1.92rem;
+    line-height: 0%;
+}
+.place-section span{
+    color: #FF0000;
+}
+.place-section button{
+    color: white;
+    background-color: #FF0000;
+    padding: 15px 20px;
+    font-size: 1.2rem;border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+/* place-section section style end  */
+/* best offer section style start */
+.best-offer-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1320px;
+    margin:50px auto ;
+}
+.best-offer-content{
+    width: 32%;
+}
+.best-offer-img{
+    width: 32%;
+}
+.new-year-2024{
+width: 25%;
 }
