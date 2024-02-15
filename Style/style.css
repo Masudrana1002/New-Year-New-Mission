@@ -93,7 +93,7 @@
     height:50vh ;
     max-width: 1320px;
     min-height: 482px;
-    margin: 5rem auto;
+    margin: 50px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,16 +121,77 @@
 .best-offer-section{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     max-width: 1320px;
-    margin:50px auto ;
+    margin:0px auto ;
+    ;
 }
 .best-offer-content{
     width: 32%;
+    
+}
+.best-offer-content h3{
+    color: #FF0000;
+    font-size: 1.44rem;
+}
+.best-offer-content h2{
+    color: #070211;
+    line-height: 0;
+    font-size: 2.88rem;
+}
+.best-offer-description{
+    font-size: 1.2rem;
+    color: rgba(7, 2, 17, 60%);
 }
 .best-offer-img{
-    width: 32%;
+    width: 33%;
+    border:15px solid #FF0000;
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding:25px;
+    background-size: 100%;
+}
+.best-offer-img img{
+    width: 100%;
+    border:10px solid #fafafa;
+    border-radius: 50%;    
 }
 .new-year-2024{
-width: 25%;
+width: 31%;
+display: flex;
+flex-direction: column;
+align-items: start;
+margin-left: 50px;
+}
+.new-year-2024 h3{
+    font-size: 2.88rem;
+    color: #FF0000;
+    line-height: 0;
+}
+/* best offer section style end */
+/* Holidays-content style start */
+.holidays-content{
+    text-align: center;
+    max-width: 1320px;
+    margin: 50px auto;
+    height: 986px;
+}
+.holidays-content p{
+    width: 70%;
+    margin: 0 auto;
+}
+.holidays-content h5{
+    font-size: 1.44rem;
+    line-height: 0;
+}
+.holidays-content h2{
+    font-size: 4.32rem;
+    line-height: 0;
+}
+.holidays-content span{
+    color: #FF0000;
+}
+.holidays-content p{
+    font-size: 1.2rem;
+    
 }
