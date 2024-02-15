@@ -1,0 +1,50 @@
+
+/* banner-section style start */
+.banner-section{
+    background-image: linear-gradient(rgba(7, 2, 17, 100%), rgba(7, 2, 17, 100%)), url("../images/Banner\ Image.png");
+    background-repeat: no-repeat;
+    max-width: 1320px;
+    height:70vh ;
+    min-height: 600px;
+    margin: 5rem auto;
+    background-blend-mode:lighten ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.banner-titel-one{
+    font-size: 1.92rem;
+    color: #c4c1c1;
+}
+.banner-titel-tow{
+    font-size: 4.32rem;
+    color: #c4c1c1;
+    margin-top: 0px;
+    
+}
+/* banner-section style end */
+
+/*offer-section style start  */
+.offer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    max-width: 800px;
+    margin:5rem auto;
+
+
+}
+.off{
+    font-size: 5.28rem;
+    color: #FF0000;
+    line-height: 0%;
+}
+.offer-deals{
+    font-size: 1.44rem;
+    color: #FF0000;
+    
+}
