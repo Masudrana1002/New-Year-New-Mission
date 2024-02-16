@@ -17,7 +17,6 @@
     align-items: center;
     flex-direction: column;
     border-radius: 16px;
-   
     color: #ffffff;
     text-align: center;
     
@@ -25,15 +24,14 @@
 
 .banner-titel-one {
     font-size: 1.92rem;
+    font-weight: 400;
 
 }
 
 .banner-titel-tow {
     font-size: 4.32rem;
-
-
+    font-weight: 900;
 }
-
 /* banner-section style end */
 
 /*offer-section style start  */
@@ -43,28 +41,40 @@
     align-items: center;
     justify-content: center;
     max-width: 800px;
-    margin: 5rem auto;
+    margin: 100px auto;
 }
 
 .off {
     font-size: 5.28rem;
-    color: #FF0000;
+    color: #F00;
+    font-weight: 700;
+    margin-bottom: 45px;
 }
 
 .offer-deals {
     font-size: 1.44rem;
     color: #FF0000;
+    font-weight: 500;
 }
 
 .all-categorie {
     font-size: 2.88rem;
+    color: #070211;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.offer-section-img{
+    max-width: 800px;
+}
+.offer-section-img img{
+    width: 100%;
 }
 
 /*offer-section style end  */
 
 /* midnight party section style start */
 .midnight-party {
-    background-image:  linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 0%), url("../images/Vectorrr.png");
+    background-image:   linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Vectorrr.png");
     background-repeat: no-repeat;
     height: 70vh;
     max-width: 1320px;
@@ -74,9 +84,6 @@
     justify-content: space-evenly;
     align-items: center;
     border-radius: 10px;
-    
-    
-
 }
 
 .party-content {
@@ -88,6 +95,7 @@
 .party-titel {
     font-size: 3.84rem;
     margin-bottom: 15px;
+    font-weight: 900;
 }
 
 .party-description {
@@ -99,6 +107,7 @@
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
+    font-weight: 700;
 }
 
 /* midnight party section style end */
@@ -114,6 +123,7 @@
     align-items: center;
     background: linear-gradient(rgba(255, 0, 0, 10%), rgba(255, 0, 0, 10%), rgb(255, 255, 255));
     border-radius: 10px;
+    font-weight: 600;
 }
 
 .place-section h3 {
@@ -133,6 +143,8 @@
     border: none;
     border-radius: 5px;
     margin-top: 50px;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 /* place-section section style end  */
@@ -140,10 +152,8 @@
 .best-offer-section {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     max-width: 1320px;
     margin: 0px auto;
-    ;
 }
 
 .best-offer-content {
@@ -152,13 +162,15 @@
 }
 
 .best-offer-content h3 {
-    color: #FF0000;
+    color: #F00;
     font-size: 1.44rem;
+    font-weight: 500;
 }
 
 .best-offer-content h2 {
     color: #070211;
     font-size: 2.88rem;
+    font-weight: 900;
 }
 
 .best-offer-description {
@@ -168,16 +180,16 @@
 
 .best-offer-img {
     width: 33%;
-    border: 15px solid #FF0000;
+    border: 15px solid #F00;
     border-radius: 50%;
     background-color: #ffffff;
-    padding: 25px;
+    padding: 30px;
     background-size: 100%;
 }
 
 .best-offer-img img {
-    width: 100%;
-    border: 10px solid #fafafa;
+    width: 95%;
+    border: 10px solid #FFF;
     border-radius: 50%;
 }
 
@@ -191,7 +203,8 @@
 
 .new-year-2024 h3 {
     font-size: 2.88rem;
-    color: #FF0000;
+    color: #F00;
+    font-weight: 700;
 
 }
 
@@ -204,29 +217,32 @@
     text-align: center;
 }
 
-.holidays-content {}
-
-.holidays-content p {
+.holidays-content  {
     width: 90vh;
     margin: 0 auto;
+    
 }
 
 .holidays-content h5 {
     font-size: 1.44rem;
+    color: #070211;
+
 
 }
 
 .holidays-content h2 {
     font-size: 4.32rem;
-
+    font-weight: 900;
 }
 
 .holidays-content span {
-    color: #FF0000;
+    color: #F00;
 }
 
 .holidays-content p {
     font-size: 1.2rem;
+    font-weight: 500;
+    color: rgba(7, 2, 17, 0.60);
 
 }
 
@@ -237,7 +253,7 @@
     margin: 0px auto;
     background-repeat: no-repeat;
     position: relative;
-    height: 75vh;
+    height: 65vh;
 
 
 }
@@ -275,17 +291,20 @@
 }
 
 .Portfolio-section-content h4 {
-    color: #FF0000;
+    color: #F00;
     font-size: 1.44rem;
+    width: 500;
+
 }
 
 .Portfolio-section-content h2 {
     color: #070211;
     font-size: 2.88rem;
+    font-weight: 900;
 }
 
 .Portfolio-section-content p {
-    color: #070211;
+    color: rgba(7, 2, 17, 0.60);
     font-size: 1.2rem;
 }
 
@@ -294,6 +313,16 @@
     justify-content: space-between;
     margin: 25px auto;
 }
+.Portfolio-img img{
+    width: 424px;
+    height: 450px;
+}
+.Portfolio-img img:hover{
+    border:2px solid #F00;
+    border-radius: 17px;
+    
+}
+
 
 /* Our Awesome Portfolio style end */
 /* Subscribe-section style start */
@@ -318,10 +347,13 @@
 
 .subscribe-titel {
     font-size: 2.88rem;
+    font-weight: 900;
+    color: #070211;
 }
 
 .subscribe-description {
     font-size: 1.2rem;
+    color: rgba(7, 2, 17, 0.60);
 }
 
 .Subscribe-btn {
@@ -337,15 +369,15 @@
     border: none;
     border-radius: 25px 0px 0px 25px;
 }
-
 .Subscribe-btn button {
     font-size: 1.2rem;
-    background-color: #FF0000;
+    background-color: #F00;
     color: #ffffff;
     padding: 8px 15px;
     border: none;
     border-radius: 0 25px 25px 0;
     margin-left: -5px;
+    font-weight: 600;
 }
 
 /* Subscribe-section style end */
@@ -365,6 +397,8 @@ footer {
     border-bottom: 1px solid rgba(255, 255, 255, 15%);
     width: 70%;
     margin: 0 auto;
+    font-weight: 500;
+    line-height: 1.5;
 }
 
 .address-content {
@@ -386,7 +420,7 @@ footer {
     width: 70%;
     margin: 0 auto;
     padding: 30px;
-    gap: 10px;
+    gap: 15px;
 }
 
 .copy-right {
