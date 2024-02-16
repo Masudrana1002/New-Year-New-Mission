@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
 
 
@@ -23,7 +27,7 @@
 .banner-titel-tow{
     font-size: 4.32rem;
     color: #ffffff;
-    margin-top: 0px;
+  
     
 }
 /* banner-section style end */
@@ -40,16 +44,13 @@
 .off{
     font-size: 5.28rem;
     color: #FF0000;
-    line-height: 0%;
 }
 .offer-deals{
     font-size: 1.44rem;
     color: #FF0000;
-    line-height: 0%; 
 }
 .all-categorie{
     font-size: 2.88rem;
-    line-height: 0%;
 }
 /*offer-section style end  */
 
@@ -67,20 +68,22 @@
     align-items: start;
     flex-direction: column;
     border-radius: 10px;
+   
 }
 .party-content{
     padding-left: 8%;
     color: white;
+    
 }
 .party-titel{
     font-size: 3.84rem;
-    line-height: 1;
-    margin-bottom: 0px;
     width: 55%;
+    margin-bottom: 15px;
 }
 .party-description{
     width: 55%;
     font-size: 1.08rem;
+    margin-bottom: 15px;
 }
 .party-content > a{
     color:white ;
@@ -103,7 +106,7 @@
 }
 .place-section h3{
     font-size: 1.92rem;
-    line-height: 0%;
+    
 }
 .place-section span{
     color: #FF0000;
@@ -136,7 +139,6 @@
 }
 .best-offer-content h2{
     color: #070211;
-    line-height: 0;
     font-size: 2.88rem;
 }
 .best-offer-description{
@@ -166,29 +168,29 @@ margin-left: 50px;
 .new-year-2024 h3{
     font-size: 2.88rem;
     color: #FF0000;
-    line-height: 0;
+    
 }
 /* best offer section style end */
 /* Holidays-content style start */
 .holidays-sale-section{
     height: 80vh;
     width: 1320px;
-    margin: 50px auto;
+    margin: 150px auto;
     text-align: center;
 }
 .holidays-content{
 }
 .holidays-content p{
-    width: 70%;
+    width: 90vh;
     margin: 0 auto;
 }
 .holidays-content h5{
     font-size: 1.44rem;
-    line-height: 0;
+    
 }
 .holidays-content h2{
     font-size: 4.32rem;
-    line-height: 0;
+    
 }
 .holidays-content span{
     color: #FF0000;
@@ -201,25 +203,53 @@ margin-left: 50px;
    
     background-image: url('../images/Rectangle\ 2.png'), url('../images/Rectangle\ 1.png');
     background-position:bottom,  right ;
-    height: 100%;
     margin: 0px auto;
     background-repeat: no-repeat;
     position:  relative;
+    height: 75vh;
     
 
 }
 #holidays-sale-img-one{
-    
-
-position: relative;
-margin-right: 250px;
-margin-top: 150px;
-width: 450px;
-
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 150px;
+    width: 450px;
+}
+#holidays-sale-img-one img{
+    width: 100%;
+   
 }
 #holidays-sale-img-tow{
     position: absolute;
-   
-  
-
+    margin-top: 100px;
+    margin-left: 600px;
+    width: 450px;
 }
+/* Holidays-content style end */
+/* Our Awesome Portfolio style start */
+.Portfolio-section{
+    max-width: 1320px;
+    margin: 250px auto 100px;
+}
+.Portfolio-section-content{
+    max-width: 800px;
+}
+.Portfolio-section-content h4{
+   color: #FF0000;
+   font-size: 1.44rem;
+}
+.Portfolio-section-content h2{
+   color: #070211;
+   font-size: 2.88rem;
+}
+.Portfolio-section-content p{
+   color: #070211;
+   font-size: 1.2rem;
+}
+.Portfolio-img{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px auto;
+}
+/* Our Awesome Portfolio style end */
