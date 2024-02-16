@@ -1,18 +1,18 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Merriweather";
 }
 
 
 /* banner-section style start */
 .banner-section {
-    background-image: linear-gradient(rgba(7, 2, 17, 0%), rgba(7, 2, 17, 0%)), url("../images/Banner\ Image.png");
+    background-image: url("../images/Banner\ Image.png");
     background-repeat: no-repeat;
     max-width: 1320px;
     height: 70vh;
     min-height: 600px;
     margin: 5rem auto;
-    background-blend-mode: lighten;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +62,7 @@
 
 /* midnight party section style start */
 .midnight-party {
-    background-image: linear-gradient(rgba(0, 0, 10, 0.55), rgba(7, 2, 17, 0%)), url("../images/Vectorrr.png");
+    background-image: url("../images/Vectorrr.png");
     background-repeat: no-repeat;
     height: 70vh;
     max-width: 1320px;
@@ -313,25 +313,30 @@
 .subscribe img {
     width: 150px;
 }
-.subscribe-titel{
+
+.subscribe-titel {
     font-size: 2.88rem;
 }
-.subscribe-description{
+
+.subscribe-description {
     font-size: 1.2rem;
 }
-.Subscribe-btn{
+
+.Subscribe-btn {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.Subscribe-btn input{
+
+.Subscribe-btn input {
     font-size: 1rem;
     color: #070211;
     padding: 11px 18px;
     border: none;
     border-radius: 25px 0px 0px 25px;
 }
-.Subscribe-btn button{
+
+.Subscribe-btn button {
     font-size: 1.2rem;
     background-color: #FF0000;
     color: #ffffff;
@@ -340,47 +345,53 @@
     border-radius: 0 25px 25px 0;
     margin-left: -5px;
 }
+
 /* Subscribe-section style end */
 /* footer section style start  */
-footer{
+footer {
     background-color: #070211;
     color: #ffffff;
     padding: 50px;
 
 }
-.address{
+
+.address {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 1.44rem;
-    border-bottom:1px solid rgba(255, 255, 255,15%); 
+    border-bottom: 1px solid rgba(255, 255, 255, 15%);
     width: 70%;
-    margin:  0 auto;
+    margin: 0 auto;
 }
-.address-content{
+
+.address-content {
     padding-bottom: 25px;
 }
-.phon p{
+
+.phon p {
     display: flex;
     align-items: center;
     gap: 5px;
 
 }
-.social-icons{
+
+.social-icons {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom:1px solid rgba(255, 255, 255,15%); 
+    border-bottom: 1px solid rgba(255, 255, 255, 15%);
     width: 70%;
-    margin:  0 auto;
-    padding: 30px ;
+    margin: 0 auto;
+    padding: 30px;
     gap: 10px;
 }
-.copy-right{
+
+.copy-right {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 1.44rem;
     width: 70%;
-    margin:  52px auto;
+    margin: 52px auto;
 }
