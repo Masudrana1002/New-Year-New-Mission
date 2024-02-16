@@ -7,27 +7,29 @@
 
 /* banner-section style start */
 .banner-section {
-    background-image: url("../images/Banner\ Image.png");
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Banner\ Image.png");
     background-repeat: no-repeat;
     max-width: 1320px;
-    height: 70vh;
     min-height: 600px;
     margin: 5rem auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-radius: 10px;
+    border-radius: 16px;
+   
+    color: #ffffff;
+    text-align: center;
+    
 }
 
 .banner-titel-one {
     font-size: 1.92rem;
-    color: #ffffff;
+
 }
 
 .banner-titel-tow {
     font-size: 4.32rem;
-    color: #ffffff;
 
 
 }
@@ -62,7 +64,7 @@
 
 /* midnight party section style start */
 .midnight-party {
-    background-image: url("../images/Vectorrr.png");
+    background-image:  linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 0%), url("../images/Vectorrr.png");
     background-repeat: no-repeat;
     height: 70vh;
     max-width: 1320px;
@@ -266,7 +268,9 @@
 .Portfolio-section {
     max-width: 1320px;
     margin: 250px auto 100px;
+    min-height: 800px;
 }
+
 
 .Portfolio-section-content {
     max-width: 800px;
