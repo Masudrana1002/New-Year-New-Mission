@@ -350,12 +350,37 @@ footer{
 }
 .address{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    font-size: 1.44rem;
+    border-bottom:1px solid rgba(255, 255, 255,15%); 
+    width: 70%;
+    margin:  0 auto;
+}
+.address-content{
+    padding-bottom: 25px;
 }
 .phon p{
     display: flex;
     align-items: center;
     gap: 5px;
 
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom:1px solid rgba(255, 255, 255,15%); 
+    width: 70%;
+    margin:  0 auto;
+    padding: 30px ;
+    gap: 10px;
+}
+.copy-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.44rem;
+    width: 70%;
+    margin:  52px auto;
 }
